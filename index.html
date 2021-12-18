@@ -22,13 +22,13 @@
     </section>
     <section class="download-section">
     <div class="container"></div>
-     <img class="engineering" src="/Images/Engineering.svg" alt="Engineering">
-     <img class="level" src="/Images/Level 2.svg" alt="Level 2">
+     <h2 class="engine">ENGINEERING</h2>
+     <h3 class="level">Level 2</h3>
      <section class="downloading-section">
          <ul>
-             <li class="list">Download Applied Mechanics Laboratory <br> <br> <a class="click-here" href="/Images/applied laboratory.pdf"><img src="/Images/Click here.svg" alt="click here" download="Applied Mechanics Laboratory Assignment"></a></li>
-             <li class="list">Download Workshop Assignment For Plumbing <br> <br> <a class="click-here" href="/Images/Civil workshop assignment.pdf"><img src="/Images/Click here.svg" alt="click here" download="Workshop Assignment For Plumbing"></a></li>
-             <li class="list">Download Material Science Laboratory <br> <br> <a class="click-here" href="/Images/web Material Science.pdf"><img src="/Images/Click here.svg" alt="click here" download="Material Science Laboratory"></a></li>
+             <li class="list">Download Applied Mechanics Laboratory <br> <br> <a class="click-here" href="/Images/applied laboratory.pdf" download="Applied Mechanics Laboratory Assignment">Click here</a></li>
+             <li class="list">Download Workshop Assignment For Plumbing <br> <br> <a class="click-here" href="/Images/Civil workshop assignment.pdf" download="Workshop Assignment For Plumbing">Click here</a></li>
+             <li class="list">Download Material Science Laboratory <br> <br> <a class="click-here" href="/Images/web Material Science.pdf " download="Material Science Assignment">Click here</a></li>
          </ul>
      </section>
         
@@ -67,35 +67,38 @@
          
          .download-section {
              background: #2E9477;
-             margin-top: -1em;
+             margin-top: -1.5em;
          }
 
-         .engineering {
-            display: block;
-            position: relative;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-
-         }
-
-        .level {
-            display: block;
-            position: relative;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-
-        .list{
-            color: #9b1c60;
-            font-weight: bold;
-        }
-
-       .list {
-           padding-top: 1.2em;
+       .engine {
+           background: #CCC5C5;
+           color: #002C84;
+           font-weight: 300;
+           letter-spacing: .1em;
+           text-align: center;
+           margin-left: 4.8em;
+           margin-right: 4.8em;
+           border-radius: 5em;
+           
        }
 
+       .level {
+           background: #CCC5C5;
+           color: #002C84;
+           font-weight: 300;
+           text-align: center;
+           margin-left: 10em;
+           margin-right: 10em;
+           border-radius: 5em;
+       }
+
+        .list{
+            color: #be1871;
+            font-weight: bold;
+            padding-top: 2em;
+        }
+
+       
         .close{
             font-size: x-large;
             text-align: center;
@@ -103,6 +106,15 @@
             padding-top: 2em;
         }        
 
+        .click-here {
+            text-decoration: none;
+            background: #FFCC00;
+            color: rgb(230, 230, 230);
+            padding: .4em;
+            border-radius: 5em;
+
+
+        }
         .lazy {
             color: rgb(165, 162, 162);
             font-weight: bold;
